@@ -30,7 +30,7 @@ The WordPress Plugin Resulta-CC includes the following files:
 * Show Graphical Representation	(YES and NO) in dropdown
 * Shortcode                       This is just to show the shortcode need to add to page or post to see this functionality
 
-### structure
+### Structure
 * The Resulta-CC Plugin is based on the [Plugin API](http://codex.wordpress.org/Plugin_API), [Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards), and [Documentation Standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/).
 * All classes, functions, and variables are documented so that you know can understand the architecture.
 * The Resulta-CC Plugin uses a strict file organization scheme that corresponds both to the WordPress Plugin Repository structure, and that makes it easy to organize the files that compose the plugin.
