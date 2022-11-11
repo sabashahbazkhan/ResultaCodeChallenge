@@ -38,9 +38,11 @@ class Resulta_Cc_Activator {
 		/**
 		 * Check user rights
 		 */
-		/*if ( !current_user_can( "manage_options" ) ) {
+		if ( !current_user_can( "manage_options" ) ) {
 			wp_die( "Unauthorized user" );
-		}*/
+		}
+		add_option( 'rcc_show_graph', '0', '', 'yes' );
+		add_option( 'rcc_header_bg_color', '0', '', '#d3c904' );
 	
 		/**
 		 * Create database tables
