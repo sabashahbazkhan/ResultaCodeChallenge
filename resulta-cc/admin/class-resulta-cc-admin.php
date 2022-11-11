@@ -122,10 +122,10 @@ class Resulta_Cc_Admin {
 		add_settings_section('rcc_option_section', null, null, 'resulta-nfl-info-setting');
 	
 		add_settings_field('rcc_header_bg_color', 'Info Header Background Color', array($this, 'dispalyColorPickerBackgroundField'), 'resulta-nfl-info-setting', 'rcc_option_section');
-		register_setting('rccoptionsplugin', 'rcc_header_bg_color', array('sanitize_callback' => array($this,'check_color'), 'default' => '#000000'));
+		register_setting('rccoptionsplugin', 'rcc_header_bg_color', array('sanitize_callback' => array($this,'check_color'), 'default' => '#d3c904'));
 	
 		add_settings_field('rcc_show_graph', 'Show Graphical Representation', array($this, 'rccShowGraphHTML'), 'resulta-nfl-info-setting', 'rcc_option_section');
-		register_setting('rccoptionsplugin', 'rcc_show_graph', array('sanitize_callback' => array($this, 'sanitizeShowGraph'), 'default' => '1'));
+		register_setting('rccoptionsplugin', 'rcc_show_graph', array('sanitize_callback' => array($this, 'sanitizeShowGraph'), 'default' => '0'));
 		
 		add_settings_field('rcc_shortcode', 'Shortcode', array($this, 'rccShortcodeHTML'), 'resulta-nfl-info-setting', 'rcc_option_section');
 		register_setting('rccoptionsplugin', 'rcc_shortcode', array('default' => '[NFL_TEAMS_INFO_SHORT_CODE]'));
