@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Resulta Code Challenge
  * Plugin URI:        http://resulta-code-challenge.com/
- * Description:       This is a Code Challenge to access the skill to resolve technical problems and how you architect and implement solutions to those problems.
+ * Description:       This is a Code Challenge to assess the skillset to resolve technical problems and how you architect and implement solutions to those problems.
  * Version:           1.0.0
  * Author:            Saba Shahbaz
  * Author URI:        https://www.linkedin.com/in/sabashahbaz/
