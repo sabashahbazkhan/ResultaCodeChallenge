@@ -41,8 +41,8 @@ class Resulta_Cc_Activator {
 		if ( !current_user_can( "manage_options" ) ) {
 			wp_die( "Unauthorized user" );
 		}
-		add_option( 'rcc_show_graph', '0', '', 'yes' );
-		add_option( 'rcc_header_bg_color', '0', '', '#d3c904' );
+		add_option( 'rcc_show_graph', '1', '', 'yes' );
+		add_option( 'rcc_header_bg_color', '#d3c904', '', 'yes' );
 	
 		/**
 		 * Create database tables
