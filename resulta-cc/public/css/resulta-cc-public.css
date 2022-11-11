@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .container-margin-top{
+    margin-top: 30px!important;
+ }
+ .margin30-bottom{
+    margin-bottom: 30px!important;
+ }
+ .margin70-top{
+    margin-top: 70px!important;
+ }
